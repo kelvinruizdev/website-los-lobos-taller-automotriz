@@ -1,18 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import '../../styles/index.css'
+import '../../styles/navbar.css'
+import lobosLogo from "../../img/lobos-logo.png"
 
 export const Navbar = () => {
 	return (
-		<nav className="navbar navbar-light bg-light">
+		<nav className="navbar navbar--primary">
 			<div className="container">
-				<Link to="/">
-					<span className="navbar-brand mb-0 h1">React Boilerplate</span>
-				</Link>
-				<div className="ml-auto">
-					<Link to="/demo">
-						<button className="btn btn-primary">Check the Context in action</button>
+				<div className="col-10">
+					<Link to="/" className="">
+						<img src={lobosLogo} className="w-25" />
 					</Link>
 				</div>
+
+				<Link to="/" className="button--agendar col-2">
+					Agendar una cita
+				</Link>
 			</div>
 		</nav>
 	);

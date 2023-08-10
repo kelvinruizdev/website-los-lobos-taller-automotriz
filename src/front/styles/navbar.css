@@ -1,0 +1,93 @@
+.navbar--primary {
+    background-color: rgb(243, 243, 243) !important;
+
+    /* background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(0, 212, 255, 0) 100%); */
+}
+
+.navbar--secondary {
+    background-color: transparent !important;
+}
+
+.button--navbar {
+    width: 20%;
+    height: 40px;
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 0px;
+    z-index: 0;
+    background: rgb(243, 243, 243);
+    overflow: hidden;
+    border-right: 1px solid #000000;
+    border-left: 1px solid #000000;
+    color: #000000;
+}
+
+.button--navbar:hover {
+    color: #fff;
+}
+
+.button--navbar:hover:after {
+    height: 100%;
+}
+
+.button--navbar:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    height: 0;
+    width: 100%;
+    background: #000000;
+}
+
+.button--agendar {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 0px;
+    z-index: 0;
+    background: rgb(15, 77, 168);
+    overflow: hidden;
+    border: 1px solid #000000;
+    /* color: #000000; */
+}
+
+.button--agendar:hover {
+    color: #fff;
+}
+
+.button--agendar:hover:after {
+    height: 100%;
+}
+
+.button--agendar:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    height: 0;
+    width: 100%;
+    background: #000000;
+}
