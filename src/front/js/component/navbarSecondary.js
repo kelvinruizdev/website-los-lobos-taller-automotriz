@@ -7,19 +7,19 @@ export const NavbarSecondary = () => {
     return (
         <nav className="navbar navbar--secondary">
             <div className="container-fluid">
-                <Link to="/" className="space--button button--navbar">
+                <Link to="/" className="button--navbar">
                     Servicios
                 </Link>
-                <Link to="/" className="space--button button--navbar">
+                <Link to="/" className="button--navbar">
                     Testimonios
                 </Link>
-                <Link to="/" className="space--button button--navbar">
+                <Link to="/" className="button--navbar">
                     Contactanos
                 </Link>
-                <Link to="/" className="space--button button--navbar">
+                <Link to="/" className="button--navbar">
                     Ubicacion
                 </Link>
-                <Link to="/" className="space--button button--navbar">
+                <Link to="/" className="button--navbar">
                     Galeria
                 </Link>
             </div>

@@ -1,0 +1,17 @@
+.card--model {
+    width: 33%;
+    box-shadow: 10px 5px 5px rgb(134, 134, 134);
+    transition: all 0.3s ease;
+}
+
+.card--model:hover {
+    box-shadow: 5px 3px 3px rgb(134, 134, 134);
+}
+
+.card--image--service {
+    background-image: url(https://img.freepik.com/fotos-gratis/mecanico-de-automoveis-e-cliente-apertando-as-maos_342744-258.jpg?w=740&t=st=1691674739~exp=1691675339~hmac=9842103f61dba19285191287412ce5c95e3ef8f522b18316560d731828f8a3ee);
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    text-align: center;
+}

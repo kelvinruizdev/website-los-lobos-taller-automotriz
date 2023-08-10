@@ -1,0 +1,35 @@
+.card--test {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.flip-button {
+    width: 50px;
+    height: 20px;
+    font-size: 14px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.back-side {
+    display: none;
+}
+
+.card--test:hover .back-side {
+    display: block;
+}
